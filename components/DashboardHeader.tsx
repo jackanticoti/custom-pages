@@ -109,7 +109,7 @@ export default function DashboardHeader({
             </div>
             <div className="relative max-w-md px-4 py-12 mx-auto space-y-6 lg:-ml-24 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
               <h2 className="text-3xl font-extrabold text-white" id="join-heading">
-                Hello {currentUser.firstName}!
+                Hey {currentUser.firstName}!
                 {currentUser.zipCode && <Weather zipCode={currentUser.zipCode} />}
               </h2>
 

@@ -31,7 +31,7 @@ function Page({ appearance, currentUser }: { appearance: Appearance; currentUser
   return (
     <Layout appearance={appearance} currentUser={currentUser}>
       <div>
-        <OurHero />
+        <OurHero /> 
         <Stats />
         <FeaturedItems />
         <Testimonial />
